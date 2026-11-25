@@ -260,3 +260,5 @@ files.download('bmi_feature_scaled_selected.csv')
 # RESULT:
 The given BMI dataset was successfully cleaned, and Feature Scaling was performed using StandardScaler, MinMaxScaler, MaxAbsScaler, and RobustScaler.Feature Selection was successfully performed using Filter, Wrapper, and Embedded methods, and the final processed dataset was saved to a CSV file.
 
+## Summary:
+The program reads the BMI dataset and performs data cleaning by handling missing values, removing duplicates, and encoding categorical data. It applies four Feature Scaling techniques: StandardScaler, MinMaxScaler, MaxAbsScaler, and RobustScaler to transform the numerical features. Feature Selection is performed using three methods: Filter Method (SelectKBest), Wrapper Method (RFE), and Embedded Method (Random Forest). The selected features are identified based on their importance and statistical scores. The processed features are combined into a final dataset
